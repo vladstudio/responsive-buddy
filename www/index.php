@@ -65,7 +65,7 @@
 <body class="p-1">
     <div class="container-48">
         <div class="grid gap-1">
-            <div class="card p-2 flex a-center j-center gap-2">
+            <div class="card p-2 flex -s-col a-center j-center gap-2">
                 <img src="/favicon/favicon.svg" alt="Logo" width="128" height="128">
                 <h1 class="c-accent">Responsive Buddy</h1>
             </div>
