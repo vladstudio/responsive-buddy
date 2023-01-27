@@ -1,5 +1,6 @@
-// responsibility
+// Responsive Buddy
 // by Vlad Gerasimov
+
 function update_popup(settings) {
     var devices = [
         { name: "iPhone SE", w: 568, h: 320 },
@@ -18,7 +19,7 @@ function update_popup(settings) {
         + '<img src="/images/vertical-' + settings.vertical + '.svg" width="16" height="16"></a>'
         + '<a href="#" class="btn set-iframe small flex-1 flex f-center" data-iframe="' + settings.iframe + '">'
         + '<img src="/images/iframe-' + settings.iframe + '.svg" width="16" height="16"></a>'
-        + '<a target="_blank" href="https://responsibility.vlad.studio" class="btn small flex-1 flex f-center">'
+        + '<a target="_blank" href="https://responsive-buddy.vlad.studio" class="btn small flex-1 flex f-center">'
         + '<img src="/images/help.svg" width="16" height="16"></a>'
         + '</div><hr>';
 

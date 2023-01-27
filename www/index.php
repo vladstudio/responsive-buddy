@@ -22,7 +22,7 @@
     <meta name="twitter:image" content="/images/promo-large.png">
 
     <link rel="manifest" href="/manifest.webmanifest">
-    <link rel="icon" href="/favicon/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon/favicon.svg" sizes="any">
     <link rel="icon" href="/favicon/1024.png" type="image/png">
     <link rel="apple-touch-icon" href="/favicon/256.png">
 

@@ -1,7 +1,7 @@
-<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M768 864V160C768 124.654 739.346 96 704 96L320 96C284.654 96 256 124.654 256 160L256 864C256 899.346 284.654 928 320 928H704C739.346 928 768 899.346 768 864Z" stroke="#FA6816" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M384 224H640" stroke="#FA6816" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="48" cy="48" r="48" transform="matrix(-1 0 0 1 640 573.5)" fill="#FA6816"/>
-<circle cx="48" cy="48" r="48" transform="matrix(-1 0 0 1 480 573.5)" fill="#FA6816"/>
-<path d="M576 765.5C544 808.167 480 808.167 448 765.5" stroke="#FA6816" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M24.5 28.2692V3.73077C24.5 2.49875 23.5486 1.5 22.375 1.5L9.625 1.5C8.4514 1.5 7.5 2.49875 7.5 3.73077V28.2692C7.5 29.5012 8.4514 30.5 9.625 30.5H22.375C23.5486 30.5 24.5 29.5012 24.5 28.2692Z" stroke="#FA6816" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="13.25" cy="18.75" r="1.75" fill="#FA6816"/>
+<circle cx="18.75" cy="18.75" r="1.75" fill="#FA6816"/>
+<path d="M14 23.5C15 24.8333 17 24.8333 18 23.5" stroke="#FA6816" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 7H19" stroke="#FA6816" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
