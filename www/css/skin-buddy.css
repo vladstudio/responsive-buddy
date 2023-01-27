@@ -1,0 +1,112 @@
+:root {
+
+    /* typography */
+    --font-size-main: 16px;
+    --font-size-small: 13px;
+    --font-weight-main: 400;
+    --line-height-main: 1.5rem;
+    --font-family-main: 'Circe', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-mono: 'IBM Plex Mono', monospace;
+    --font-family-cursive: 'Mali', cursive;
+
+    --font-h1: bold calc(1.44 * 1.44 * 1.44 * var(--font-size-main))/100% var(--font-family-main);
+    --font-h2: bold calc(1.44 * 1.44 * var(--font-size-main))/108% var(--font-family-main);
+    --font-h3: bold calc(1.44 * var(--font-size-main))/124% var(--font-family-main);
+
+    --c-bg-card: hsla(0, 0%, 100%, 0.96);
+    --c-bg-button: #fff;
+    --c-bg-input: #fff;
+    --c-bg-toolbar: hsl(24, 44%, 96%);
+    --c-bg-body: hsl(32, 25%, 95%);
+    --c-invert: hsl(32, 0%, 100%);
+    --c-border-button: hsl(30, 30%, 80%);
+    --c-border-input: hsl(20, 2%, 80%);
+    --c-border-card: transparent;
+    /* hsla(32, 2%, 75%, 0.4); */
+    --c-text-light: hsl(32, 4%, 47%);
+    --c-text: hsl(32, 2%, 20%);
+    --c-bg-invert: hsla(36, 36%, 12%, 0.8);
+    --c-hr: hsla(20, 2%, 50%, 0.4);
+    --c-border-toolbar: hsla(20, 2%, 70%, 0.2);
+    --c-shadow: hsla(36, 2%, 24%, 0.04);
+
+    --c-bg-accent: hsl(24, 44%, 94%);
+    --c-accent: hsl(18, 82%, 55%);
+    --c-border-accent: hsl(25, 67%, 70%);
+    --c-link-hover: hsl(25, 67%, 40%);
+    --c-underline: hsla(25, 67%, 40%, 0.6);
+    --c-underline-hover: hsl(25, 67%, 40%);
+    --c-outline: hsla(32, 70%, 50%, 0.2);
+    --c-overlay: hsla(32, 10%, 70%, 0.8);
+
+    --c-primary: hsl(180, 50%, 40%);
+    --c-alt: hsl(270, 55%, 40%);
+    --c-danger: hsl(12, 80%, 55%);
+    --c-success: hsl(180, 50%, 40%);
+    --c-link: var(--c-text);
+
+    --bg-body: var(--c-bg-body) url(/images/bg.png) no-repeat center center;
+    --bg-card: var(--c-bg-card);
+
+    --shadow-1:
+        0 1px 1px var(--c-shadow),
+        0 2px 2px var(--c-shadow),
+        0 4px 4px var(--c-shadow);
+    --shadow-2:
+        0 1px 1px var(--c-shadow),
+        0 2px 2px var(--c-shadow),
+        0 4px 4px var(--c-shadow),
+        0 8px 8px var(--c-shadow);
+    --shadow-3:
+        0 1px 1px var(--c-shadow),
+        0 2px 2px var(--c-shadow),
+        0 4px 4px var(--c-shadow),
+        0 8px 8px var(--c-shadow),
+        0 16px 16px var(--c-shadow);
+    --shadow-inset-1:
+        inset 0 1px 1px var(--c-shadow),
+        inset 0 2px 2px var(--c-shadow);
+
+    /* misc */
+    --radius-input: 4px;
+    --radius-button: 4px;
+    --radius-card: 8px;
+}
+
+
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+
+        --c-bg-card: hsl(220, 1%, 20%);
+        --c-bg-button: hsl(220, 1%, 24%);
+        --c-bg-input: var(--c-bg-body);
+        --c-bg-toolbar: hsl(220, 1%, 18%);
+        --c-bg-body: hsl(220, 1%, 14%);
+        --c-invert: hsl(220, 1%, 12%);
+        --c-border-button: hsl(20, 1%, 32%);
+        --c-border-input: var(--c-border-button);
+        --c-text-light: hsl(220, 4%, 67%);
+        --c-text: hsl(220, 1%, 88%);
+        --c-bg-invert: hsl(220, 1%, 75%);
+        --c-hr: hsla(20, 2%, 70%, 0.4);
+        --c-border-toolbar: var(--c-border-card);
+        --c-shadow: hsla(24, 2%, 0%, 0.1);
+
+        --c-bg-accent: hsl(18, 80%, 30%);
+        --c-border-accent: hsl(25, 67%, 70%);
+        --c-accent: hsl(18, 82%, 55%);
+        --c-link-hover: hsl(25, 67%, 70%);
+        --c-underline: hsla(25, 67%, 40%, 0.6);
+        --c-underline-hover: hsl(25, 67%, 40%);
+        --c-outline: hsla(24, 70%, 50%, 0.2);
+        --c-overlay: hsla(20, 2%, 8%, 0.8);
+
+        --c-primary: hsl(170, 50%, 26%);
+        --c-alt: hsl(270, 55%, 40%);
+        --c-danger: hsl(12, 60%, 50%);
+        --c-success: hsl(160, 60%, 40%);
+        --c-link: var(--c-text);
+    }
+}
