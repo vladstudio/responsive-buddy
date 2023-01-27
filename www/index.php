@@ -46,18 +46,13 @@
         }
 
         #hangingChrome {
-            position: fixed;
             display: block;
-            top: 1rem;
-            right: 1rem;
             width: 248px;
             height: 75px;
             background: #fff url('/images/hangingChrome.png') no-repeat center center;
             background-size: 248px 75px;
-            border-radius: 8px;
             overflow: hidden;
             text-indent: -9999px;
-            box-shadow: 0 1px 2px rgba(139, 137, 135, 0.3), 0 5px 15px rgba(139, 137, 135, 0.2);
         }
     </style>
 </head>
@@ -67,8 +62,14 @@
         <div class="grid gap-1">
             <div class="card p-2 flex -s-col a-center j-center gap-2">
                 <img src="/favicon/favicon.svg" alt="Logo" width="128" height="128">
-                <h1 class="c-accent">Responsive Buddy</h1>
+                <div class="grid gap-0-25 a-center j-center">
+                    <h1 class="c-accent">Responsive Buddy</h1>
+                    <div class="t-sm">by <a href="https://vlad.studio" class="_">Vlad.studio</a></div>
+                </div>
             </div>
+            <a href="#" id="hangingChrome" class="fixed -m-sticky -m-w-all top-1 right-1 card">
+                Get the Chrome Extension
+            </a>
             <div class="card invert p-0-25">
                 <iframe class="w-all aspect-video" src="https://www.youtube-nocookie.com/embed/nY4ywCfJ_sI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
@@ -112,7 +113,6 @@
         </div>
     </div>
 
-    <a href="#" id="hangingChrome">Get the Chrome Extension</a>
 </body>
 
 </html>
