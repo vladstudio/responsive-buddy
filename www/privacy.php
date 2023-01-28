@@ -25,7 +25,7 @@
                     <hr>
                     <p>Responsive Buddy does not collect any personal information from users. I respect your privacy and am committed to protecting it.</p>
                     <hr>
-                    <p>If you have any questions about this Privacy Policy, contact me:</p>
+                    <p>If you have any questions about Responsive Buddy or this Privacy Policy, contact me:</p>
                     <ul>
                         <li>By email: <a href="mailto:responsive-buddy@vlad.studio" class="_">responsive-buddy@vlad.studio</a></li>
                     </ul>
