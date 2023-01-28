@@ -27,7 +27,7 @@
                     <hr>
                     <p>If you have any questions about Responsive Buddy or this Privacy Policy, contact me:</p>
                     <ul>
-                        <li>By email: <a href="mailto:responsive-buddy@vlad.studio" class="_">responsive-buddy@vlad.studio</a></li>
+                        <li><a href="mailto:responsive-buddy@vlad.studio" class="_">responsive-buddy@vlad.studio</a></li>
                     </ul>
                     <hr>
                     <p class="c-light">This Privacy Policy was created with assistance from ChatGPT. Fun times!</p>
