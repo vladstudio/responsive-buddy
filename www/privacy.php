@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-cover">
+<html lang="en">
 
 <head>
     <?php include '-head.php'; ?>

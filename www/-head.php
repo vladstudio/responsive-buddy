@@ -50,4 +50,9 @@
             overflow: hidden;
             text-indent: -9999px;
         }
+
+        html {
+            background-attachment: fixed;
+            background-size: cover;
+        }
     </style>

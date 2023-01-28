@@ -108,5 +108,7 @@
         --c-danger: hsl(12, 60%, 50%);
         --c-success: hsl(160, 60%, 40%);
         --c-link: var(--c-text);
+
+        --bg-body: var(--c-bg-body) url(/images/bg-dark.png) no-repeat center center;
     }
 }
