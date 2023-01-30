@@ -41,16 +41,6 @@
             font-style: normal;
         }
 
-        #hangingChrome {
-            display: block;
-            width: 248px;
-            height: 75px;
-            background: #fff url('/images/hangingChrome.png') no-repeat center center;
-            background-size: 248px 75px;
-            overflow: hidden;
-            text-indent: -9999px;
-        }
-
         html {
             background-attachment: fixed;
             background-size: cover;
