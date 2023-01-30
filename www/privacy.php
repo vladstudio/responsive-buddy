@@ -15,7 +15,7 @@
                     <div class="t-sm">by <a href="https://vlad.studio" class="_">Vlad.studio</a></div>
                 </div>
             </div>
-            <a href="#" id="hangingChrome" class="fixed -m-sticky -m-w-all top-1 right-1 card">
+            <a href="https://chrome.google.com/webstore/detail/responsive-buddy/pkpodanfippddohhfchdmebebbepjkkf" id="hangingChrome" class="fixed -m-sticky -m-w-all top-1 right-1 card">
                 Get the Chrome Extension
             </a>
             <div class="card p-3">

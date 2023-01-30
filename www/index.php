@@ -15,7 +15,7 @@
                     <div class="t-sm">by <a href="https://vlad.studio" class="_">Vlad.studio</a></div>
                 </div>
             </div>
-            <a href="#" id="hangingChrome" class="fixed -m-sticky -m-w-all top-1 right-1 card">
+            <a href="https://chrome.google.com/webstore/detail/responsive-buddy/pkpodanfippddohhfchdmebebbepjkkf" id="hangingChrome" class="fixed -m-sticky -m-w-all top-1 right-1 card">
                 Get the Chrome Extension
             </a>
             <div class="card invert p-0-25">
@@ -59,7 +59,7 @@
             <div class="card p-0-5"><img src="/images/screenshot-2.jpg" alt=Screenshot"></div>
             <div class="card p-0-5"><img src="/images/screenshot-3.jpg" alt=Screenshot"></div>
             <div class="card p-2 flex j-center gap-0-5">
-                Made with &hearts; by 
+                Made with &hearts; by
                 <a href="https://vlad.studio" class="_">Vlad.studio</a>
                 &middot;
                 <a href="/privacy" class="_">Privacy policy</a>
