@@ -39,7 +39,7 @@
                 <hr>
 
                 <p class="c-accent t-semibold"> Iframe Mode Off Button </P>
-                <p>By default, Responsive Buddy creates a window with an iframe, then transforms it to the selected zoom setting. It works well, unless a page refuses to be opened in an iframe. If that's the case, you can turn iframe mode off. See details below:</p>
+                <p>By default, Responsive Buddy creates an iframe, then transforms it to the selected zoom setting. It works well, unless a page refuses to be opened in an iframe. If that's the case, you can turn iframe mode off. See details below:</p>
             </div>
             <div class="card w-all">
                 <table class="b-card w-all">
