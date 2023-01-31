@@ -13,7 +13,7 @@
                 <iframe class="w-all aspect-video" src="https://www.youtube-nocookie.com/embed/nY4ywCfJ_sI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="card p-3">
-                <p>As a <a href="https://vlad.studio/resume" class="_ c-accent" target="_blank">web designer &amp; developer</a>, I need to constantly check my designs on large and small screens. I tried many browser extensions that help you test responsive designs, but most of them were too bloated or inconvenient. So I created my own &ndash; simple and opinionated. </p>
+                <p>As a <a href="https://vlad.studio/resume" class="underline c-accent" target="_blank">web designer &amp; developer</a>, I need to constantly check my designs on large and small screens. I tried many browser extensions that help you test responsive designs, but most of them were too bloated or inconvenient. So I created my own &ndash; simple and opinionated. </p>
                 <p>I've been using it daily, so I thought &ndash; why not publish it, maybe it will be useful for you too!</p>
 
                 <hr>
