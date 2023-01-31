@@ -1,16 +1,1 @@
-<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_7_2)">
-<path d="M12.5833 3H3.41667C3.18655 3 3 3.22386 3 3.5V12.5C3 12.7761 3.18655 13 3.41667 13H12.5833C12.8135 13 13 12.7761 13 12.5V3.5C13 3.22386 12.8135 3 12.5833 3Z" stroke="#F36313" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5.25 6C5.66421 6 6 5.66421 6 5.25C6 4.83579 5.66421 4.5 5.25 4.5C4.83579 4.5 4.5 4.83579 4.5 5.25C4.5 5.66421 4.83579 6 5.25 6Z" fill="#F36313"/>
-<path d="M7.75 6C8.16421 6 8.5 5.66421 8.5 5.25C8.5 4.83579 8.16421 4.5 7.75 4.5C7.33579 4.5 7 4.83579 7 5.25C7 5.66421 7.33579 6 7.75 6Z" fill="#F36313"/>
-<path d="M1 4V2C1 1.44772 1.44772 1 2 1H4" stroke="#F36313" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M1 12V14C1 14.5523 1.44772 15 2 15H4" stroke="#F36313" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M15 4V2C15 1.44772 14.5523 1 14 1H12" stroke="#F36313" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M15 12V14C15 14.5523 14.5523 15 14 15H12" stroke="#F36313" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<defs>
-<clipPath id="clip0_7_2">
-<rect width="16" height="16" fill="white"/>
-</clipPath>
-</defs>
-</svg>
+<svg fill="none" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="a"><path d="m0 0h16v16h-16z"/></clipPath><g clip-path="url(#a)"><path d="m12.5833 3h-9.16663c-.23012 0-.41667.22386-.41667.5v9c0 .2761.18655.5.41667.5h9.16663c.2302 0 .4167-.2239.4167-.5v-9c0-.27614-.1865-.5-.4167-.5z" stroke="#f36313" stroke-linecap="round" stroke-linejoin="round"/><path d="m5.25 6c.41421 0 .75-.33579.75-.75s-.33579-.75-.75-.75-.75.33579-.75.75.33579.75.75.75z" fill="#f36313"/><path d="m7.75 6c.41421 0 .75-.33579.75-.75s-.33579-.75-.75-.75-.75.33579-.75.75.33579.75.75.75z" fill="#f36313"/><g stroke="#f36313" stroke-linecap="round" stroke-linejoin="round"><path d="m1 4v-2c0-.55228.44772-1 1-1h2"/><path d="m1 12v2c0 .5523.44772 1 1 1h2"/><path d="m15 4v-2c0-.55228-.4477-1-1-1h-2"/><path d="m15 12v2c0 .5523-.4477 1-1 1h-2"/></g></g></svg>
