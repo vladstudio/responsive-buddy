@@ -68,7 +68,7 @@
                         </tr>
                         <tr>
                             <td class="p-1">keeps zoom setting if you click away</td>
-                            <td class="p-1">zoom setting is reset if you click away <span class="c-light">(due to limitation of zoom API)</span></td>
+                            <td class="p-1">zoom setting is reset to 100% if you click away <span class="c-light">(due to limitation of Chrome Zoom API)</span></td>
                         </tr>
                     </tbody>
                 </table>
