@@ -18,7 +18,7 @@
 
                 <hr>
 
-                <p class="c-accent t-semibold"> 3 Phones, 3 Tables </P>
+                <p class="c-accent t-semibold"> 3 Phones, 3 Tablets </P>
                 <p>Most extensions require that I configure my own list of devices to simulate. Responsive Buddy only offers 3 phone and 3 tablet sizes, from small to large.</p>
 
                 <hr>
