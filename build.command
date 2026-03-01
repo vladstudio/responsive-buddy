@@ -14,9 +14,3 @@ cp -r extension-src/ temp/
 mv "temp/manifest-chrome.json" "temp/manifest.json"
 cd temp
 zip -rq0 "../extension-dist/chrome/${name}-${version}.zip" ./*
-cd ..
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --pack-extension="${folder}/temp" --pack-extension-key="${folder}/responsive-buddy.pem"
-mv "temp.crx" "extension-dist/chrome/${name}-${version}.crx"
-
-
-# Files remain in temp folder - so that I can "load unpacked" in Chrome.
