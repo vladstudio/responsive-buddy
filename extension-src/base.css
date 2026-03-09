@@ -7,8 +7,7 @@
 :root {
   --bg: #fff;
   --text: #363336;
-  --text-dim: #666;
-  --text-muted: #999;
+  --text-muted: #777;
   --accent: #F2752F;
   --accent-hover: #d9612a;
   --accent-subtle: rgba(242, 117, 47, 0.12);
@@ -26,8 +25,7 @@
   :root {
     --bg: #2C2D30;
     --text: #F2F3F4;
-    --text-dim: #aaa;
-    --text-muted: #777;
+    --text-muted: #999;
     --accent: #d4601f;
     --accent-hover: #b8521a;
     --accent-subtle: rgba(212, 96, 31, 0.14);
@@ -61,6 +59,7 @@ body {
 a {
   color: var(--text);
   text-decoration: none;
+  cursor: pointer;
 }
 a:hover {
   color: var(--accent);
@@ -69,7 +68,7 @@ a:hover {
 hr {
   border: none;
   border-bottom: 1px solid var(--border-light);
-  margin: 8px -12px;
+  margin: 8px 0;
 }
 
 img {
@@ -89,7 +88,7 @@ input[type="url"],
 input[type="search"],
 textarea,
 select {
-  padding: 6px 8px;
+  padding: 4px 6px;
   border: 1px solid var(--input-border);
   border-radius: 4px;
   font: inherit;
@@ -104,7 +103,7 @@ textarea {
 
 label {
   font-size: 12px;
-  color: var(--text-dim);
+  color: var(--text-muted);
 }
 
 /* --- Buttons --- */
@@ -133,34 +132,35 @@ button:disabled, .btn:disabled {
 }
 
 /* Ghost button — transparent bg, accent on hover */
-button.ghost, .btn.ghost {
+.ghost {
   background: none;
   color: var(--text);
 }
-button.ghost:hover, .btn.ghost:hover {
+.ghost:hover {
   background: var(--accent-subtle);
   color: var(--text);
 }
-button.ghost.selected, .btn.ghost.selected {
+.ghost.selected {
   background: var(--accent-selected);
 }
 
-/* Subtle/link-style button */
-button.subtle, .btn.subtle {
+/* Subtle/link-style button or link */
+.subtle {
   background: none;
   color: var(--text-muted);
   font-weight: 400;
+  font-size: 11px;
   padding: 2px 0;
+  text-decoration: none;
 }
-button.subtle:hover, .btn.subtle:hover {
+.subtle:hover {
   background: none;
-  color: var(--text-dim);
+  color: var(--text);
 }
 
-/* Small variant */
+/* Small variant for buttons */
 button.small, .btn.small {
   padding: 4px 6px;
-  font-size: 11px;
 }
 
 /* --- Chips --- */
@@ -168,6 +168,7 @@ button.small, .btn.small {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
+  margin-bottom: 8px;
 }
 .chip {
   font-size: 11px;
@@ -176,7 +177,7 @@ button.small, .btn.small {
   border: 1px solid var(--border);
   cursor: pointer;
   white-space: nowrap;
-  color: var(--text-dim);
+  color: var(--text-muted);
   background: none;
   font-weight: 400;
 }

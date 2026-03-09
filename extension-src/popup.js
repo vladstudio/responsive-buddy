@@ -11,22 +11,22 @@ function update_popup(settings) {
         { name: "iPad Pro", w: 1366, h: 1024 }
     ];
     var html = '<div style="display:flex;align-items:center;gap:4px">'
-        + '<a href="#" class="btn set-scale small flex-1 flex f-center" data-s="1">100%</a>'
-        + '<a href="#" class="btn set-scale small flex-1 flex f-center" data-s="0.9">90%</a>'
-        + '<a href="#" class="btn set-scale small flex-1 flex f-center" data-s="0.8">80%</a>'
-        + '<a href="#" class="btn set-scale small flex-1 flex f-center" data-s="0.7">70%</a>'
-        + '<a href="#" class="btn set-vertical small flex-1 flex f-center" data-vertical="' + settings.vertical + '">'
+        + '<a href="#" class="btn ghost set-scale small flex-1 flex f-center" data-s="1">100%</a>'
+        + '<a href="#" class="btn ghost set-scale small flex-1 flex f-center" data-s="0.9">90%</a>'
+        + '<a href="#" class="btn ghost set-scale small flex-1 flex f-center" data-s="0.8">80%</a>'
+        + '<a href="#" class="btn ghost set-scale small flex-1 flex f-center" data-s="0.7">70%</a>'
+        + '<a href="#" class="btn ghost set-vertical small flex-1 flex f-center" data-vertical="' + settings.vertical + '">'
         + '<img src="/images/vertical-' + settings.vertical + '.svg" width="16" height="16"></a>'
-        + '<a href="#" class="btn set-iframe small flex-1 flex f-center" data-iframe="' + settings.iframe + '">'
+        + '<a href="#" class="btn ghost set-iframe small flex-1 flex f-center" data-iframe="' + settings.iframe + '">'
         + '<img src="/images/iframe-' + settings.iframe + '.svg" width="16" height="16"></a>'
-        + '<a target="_blank" href="https://responsive-buddy.vlad.studio" class="btn small flex-1 flex f-center">'
+        + '<a target="_blank" href="https://responsive-buddy.vlad.studio" class="btn ghost small flex-1 flex f-center">'
         + '<img src="/images/help.svg" width="16" height="16"></a>'
         + '</div><hr>';
 
     for (let i = 0; i < devices.length; i++) {
         let w = settings.vertical ? devices[i].h : devices[i].w;
         let h = settings.vertical ? devices[i].w : devices[i].h;
-        html = html + '<a href="#" class="btn open-window" data-name="' + devices[i].name + '" data-w="' + w + '" data-h="' + h + '"><div class="device-name flex-1">' + devices[i].name + '</div><div class="dimensions flex-0 light small">' + w + '&times;' + h + '</div></a>';
+        html = html + '<a href="#" class="btn ghost open-window" data-name="' + devices[i].name + '" data-w="' + w + '" data-h="' + h + '"><div class="device-name flex-1">' + devices[i].name + '</div><div class="dimensions flex-0 light small">' + w + '&times;' + h + '</div></a>';
         if (devices[i].hr) html = html + '<hr>';
     }
     document.getElementById('app').innerHTML = html;
