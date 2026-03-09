@@ -1,16 +1,6 @@
 #!/bin/bash
-# requires: jq (brew install jq)
-
-#----
-folder=$(dirname "$0")
-cd "${folder}"
-
-name=$(cat extension-src/manifest-chrome.json | jq -r '.name')
-version=$(cat extension-src/manifest-chrome.json | jq -r '.version')
-
-# chrome
-rm -rf temp/*
-cp -r extension-src/ temp/
-mv "temp/manifest-chrome.json" "temp/manifest.json"
-cd temp
-zip -rq0 "../extension-dist/chrome/${name}-${version}.zip" ./*
+cd "$(dirname "$0")"
+version=$(grep -o '"version": "[^"]*"' extension-src/manifest.json | cut -d'"' -f4)
+mkdir -p extension-dist/chrome
+cd extension-src
+zip -rq0 "../extension-dist/chrome/Responsive Buddy-${version}.zip" ./*

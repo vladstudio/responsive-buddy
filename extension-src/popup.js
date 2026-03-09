@@ -63,41 +63,6 @@ function open_window(url, settings, w, h, device_name) {
                     chrome.tabs.setZoomSettings(tab_id, { scope: "per-tab" });
                     chrome.tabs.setZoom(tab_id, settings.scale);
                     window.close();
-                }, 300);
-            });
-        }
-    });
-}
-
-
-function open_window(url, settings, w, h, device_name) {
-    var w_scaled = Math.round(w * settings.scale);
-    var h_scaled = Math.round(h * settings.scale);
-
-    chrome.windows.getCurrent(function (current_window) {
-        var left = current_window.left + current_window.width - w_scaled - 32;
-        var top = current_window.top + 92;
-        if (settings.iframe) {
-            var specs = 'left=' + left + ',top=' + top + ',menubar=0,width=' + w_scaled + ',height=' + h_scaled;
-            var win = window.open('', '_' + Math.random().toString(36), specs);
-            html = '<iframe src="' + url + '" width="100%" height="100%" style="position:fixed; top:0; left:0; width:' + w + 'px; height:' + h + 'px; border:0; transform:scale(' + settings.scale + '); transform-origin: 0 0;" />';
-            win.document.body.innerHTML = html;
-            win.document.title = device_name;
-            window.close();
-        } else {
-            chrome.windows.create({
-                url: url,
-                type: "popup",
-                left: left,
-                top: top,
-                width: w_scaled,
-                height: h_scaled,
-            }, function (win) {
-                var tab_id = win.tabs[0].id;
-                setTimeout(() => {
-                    chrome.tabs.setZoomSettings(tab_id, { scope: "per-tab" });
-                    chrome.tabs.setZoom(tab_id, settings.scale);
-                    window.close();
                 }, 800);
             });
         }
